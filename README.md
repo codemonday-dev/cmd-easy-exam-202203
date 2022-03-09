@@ -45,7 +45,7 @@ POST localhost:8080/checkout
         "category": "electronic",
         "unit_price": 45000,
         "quantity": 1
-    },
+    }
 ]
 ```
 
