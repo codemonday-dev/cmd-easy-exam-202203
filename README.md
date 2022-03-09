@@ -11,7 +11,7 @@ For convenient, there will be only category
 3. other (anything not in 1,2)
 
 
-## Sample input result
+## Sample input
 Request JSON to the server running on port 8080
 ```
 POST localhost:8080/checkout
