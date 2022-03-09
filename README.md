@@ -5,7 +5,7 @@ Mini easy exam for candidate in 2022 March
 Given the shopping cart of many items inside. \
 Sum the amount in each category. \
 amount will be calculated by `unit_price x quantity` \
-For convenient, there will be only category
+For convenient, there will be only three categories:
 1. sport
 2. beverage
 3. other (anything not in 1,2)
