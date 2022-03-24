@@ -1,67 +1,71 @@
-# cmd-easy-exam-202203
-Mini easy exam for candidate in 2022 March
+# CODEMONDAY-technical-assignment-202203
+Mini exam for CODEMONDAY's developer candidate of 2022
 
 ## Objective
-Given the shopping cart of many items inside. \
-Sum the amount in each category. \
-amount will be calculated by `unit_price x quantity` \
-For convenient, there will be only three categories:
-1. sport
-2. beverage
-3. other (anything not in 1,2)
 
+**Create an API to handle the request which solve the problem as follows.**
+
+Given: the shopping cart data of many items inside. \
+Find: Total price amount in each category.
+> The amount will be calculated by `unit_price x quantity`  
+> To simplify the problem, there will be only three categories:  
+> 1. sport
+> 2. beverage
+> 3. other (anything not in no. 1, 2)
 
 ## Sample input
-Request JSON to the server running on port 8080
+Request JSON data to the server running on port 8080
 ```
-POST localhost:8080/checkout
+POST http://localhost:8080/checkout
+
 [
     {
-        "item": "nike air zoom",
+        "item": "Nike Air Zoom",
         "category": "sport",
-        "unit_price": 3590,
+        "unit_price": 3000,
         "quantity": 1
     },
     {
-        "item": "protein bar",
+        "item": "Protein Bar Herbalife Deluxe",
         "category": "sport",
-        "unit_price": 15.50,
+        "unit_price": 30,
         "quantity": 10
     },
     {
-        "item": "Starbuck voucher",
+        "item": "Starbucks Voucher",
         "category": "beverage",
-        "unit_price": 200,
+        "unit_price": 500,
         "quantity": 1
     },
     {
-        "item": "low-fat milk",
+        "item": "coffee",
         "category": "beverage",
-        "unit_price": 12.50,
-        "quantity": 20
+        "unit_price": 20,
+        "quantity": 10
     },
     {
-        "item": "iphone 13",
+        "item": "iPhone 13",
         "category": "electronic",
         "unit_price": 45000,
         "quantity": 1
     }
 ]
 ```
+---
 
 ## Sample output result
 Expect the summary of ONLY
 1. sport
 2. beverage
-3. other (anything not sport and beverage)
+3. other (anything not in "sport" and "beverage" categories)
 
+So the response JSON data of the above example is:
 ```
 {
-    "controller": "checkout",
-    "result": {
-        "sport": 3745,
-        "beverage": 450,
-        "other": 45000
-    }
+  "result": {
+      "sport": 3300,
+      "beverage": 700,
+      "other": 45000
+  }
 }
 ```
