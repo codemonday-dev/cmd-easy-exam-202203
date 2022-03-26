@@ -28,7 +28,7 @@ POST http://localhost:8080/checkout
     {
         "item": "Protein Bar Herbalife Deluxe",
         "category": "sport",
-        "unit_price": 30,
+        "unit_price": 50,
         "quantity": 10
     },
     {
@@ -46,7 +46,13 @@ POST http://localhost:8080/checkout
     {
         "item": "iPhone 13",
         "category": "electronic",
-        "unit_price": 45000,
+        "unit_price": 40000,
+        "quantity": 1
+    }ม
+    {
+        "item": "Cleaning alcohol",
+        "category": "household",
+        "unit_price": 5000,
         "quantity": 1
     }
 ]
@@ -63,7 +69,7 @@ So the response JSON data of the above example is:
 ```
 {
   "result": {
-      "sport": 3300,
+      "sport": 3500,
       "beverage": 700,
       "other": 45000
   }
