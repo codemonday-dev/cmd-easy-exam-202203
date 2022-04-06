@@ -104,7 +104,9 @@ Given: Collection of users (array of user object).
 
 Find: 
 > (a) Find the name of the user who has maximum age.
+> 
 > (b) Create function to get age by name, e.g., `getAgeByName('Boat')` or `getAgeByName('boat')` will get result `26`
+> 
 > (c) Transform array and grouping into `[{ 25: ['Win', 'Ton'], 33: ['Jeff'], 26: ['Boat']}]`
 
 #### Input
