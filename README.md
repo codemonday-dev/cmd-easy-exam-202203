@@ -1,22 +1,26 @@
 # CODEMONDAY-technical-assignment-2022
-Mini exam for CODEMONDAY's software developer candidate (2022)
+Exam for CODEMONDAY's software developer candidate (2022)
 
 ## Objective
 
 **Create an API to handle the request which solve the problem as follows.**
 
-Given: the shopping cart data of many items inside. \
+Given: the shopping cart data of many items inside.
+
 Find: Total price amount in each category.
 > The amount will be calculated by `unit_price x quantity`  
 > To simplify the problem, there will be only three categories:  
 > 1. sport
 > 2. beverage
-> 3. other (anything not in no. 1, 2)
+> 3. other (anything not in "sport" and "beverage" categories)
 
-## Sample input
+#### Input
 Request JSON data to the server running on port 8080
-```
+
 POST http://localhost:8080/checkout
+
+Request Body
+```
 
 [
     {
@@ -32,16 +36,10 @@ POST http://localhost:8080/checkout
         "quantity": 10
     },
     {
-        "item": "Starbucks Voucher",
+        "item": "Starbucks Coffee",
         "category": "beverage",
         "unit_price": 500,
-        "quantity": 1
-    },
-    {
-        "item": "coffee",
-        "category": "beverage",
-        "unit_price": 20,
-        "quantity": 10
+        "quantity": 3
     },
     {
         "item": "iPhone 13",
@@ -57,20 +55,17 @@ POST http://localhost:8080/checkout
     }
 ]
 ```
+
 ---
 
-## Sample output result
+#### Expected Output
 Expect the summary of ONLY
-1. sport
-2. beverage
-3. other (anything not in "sport" and "beverage" categories)
 
-So the response JSON data of the above example is:
 ```
 {
   "result": {
       "sport": 3500,
-      "beverage": 700,
+      "beverage": 1500,
       "other": 45000
   }
 }
