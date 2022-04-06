@@ -1,8 +1,7 @@
-# CODEMONDAY-technical-assignment-2022
-Exam for CODEMONDAY's software developer candidate (2022)
+# CODEMONDAY-live-code-interview-2022
+Live-code interview question for CODEMONDAY's software developer (year 2022).
 
 ## Objective
-
 **Create an API to handle the request which solve the problem as follows.**
 
 Given: the shopping cart data of many items inside.
@@ -21,7 +20,6 @@ POST http://localhost:8080/checkout
 
 Request Body
 ```
-
 [
     {
         "item": "Nike Air Zoom",
@@ -59,7 +57,6 @@ Request Body
 ---
 
 #### Expected Output
-Expect the summary of ONLY
 
 ```
 {
