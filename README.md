@@ -1,5 +1,5 @@
-# CODEMONDAY-technical-assignment-202203
-Mini exam for CODEMONDAY's developer candidate of 2022
+# CODEMONDAY-technical-assignment-2022
+Mini exam for CODEMONDAY's software developer candidate (2022)
 
 ## Objective
 
