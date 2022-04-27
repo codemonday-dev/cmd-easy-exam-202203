@@ -142,7 +142,7 @@ Find:
 
 ## Question 4
 Given: UI image. \
-![Image of React Counter](https://github.com/codemonday-dev/cmd-live-code/blob/main/counter-plain.png)
+![Image of React Counter](https://github.com/codemonday-dev/cmd-easy-exam-202203/blob/main/counter-plain.png)
 
 Find: Make UI for the counter gadget with interaction as in the given image
 
