@@ -1,7 +1,7 @@
 # CODEMONDAY-live-code-interview (API based)
 Live-code interview question for CODEMONDAY's software developer (year 2022).
 
-## Question 1
+## Question 1 (Node.js/Golang based framework)
 ### Objective
 **Create an API to handle the request which solve the problem as follows.**
 
