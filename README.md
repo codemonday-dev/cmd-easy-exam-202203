@@ -5,6 +5,10 @@ Live-code interview question for CODEMONDAY's software developer (year 2022).
 ### Objective
 **Create an API to handle the request which solve the problem as follows.**
 
+#### Framework Requirement
+1. Node.js with Express.js, Nest.js or other framework
+2. Golang with Gin, Echo or other framework
+
 Given: the shopping cart data of many items inside.
 
 Find: Total price amount in each category.
@@ -82,7 +86,7 @@ Request Body
 # CODEMONDAY-live-code-interview (JavaScript based)
 Live-code interview questions for CODEMONDAY's software developer (year 2022).
 
-## Question 2
+## Question 2 (JS/TS)
 Given: Array of number `[1, 2, 3, 4, 5, 6, 7]`.
 
 Find: Expect array of number which elements are calculated from the even number of input array times two (เอาค่าใน Array Input ที่เป็นเลขคู่ มาคูณด้วย 2)
@@ -99,7 +103,7 @@ Find: Expect array of number which elements are calculated from the even number 
 
 ---
 
-## Question 3
+## Question 3 (JS/TS)
 Given: Collection of users (array of user object).
 
 Find: 
@@ -140,7 +144,7 @@ Find:
 
 ----
 
-## Question 4
+## Question 4 (React/React Native)
 Given: UI image. \
 ![Image of React Counter](https://github.com/codemonday-dev/cmd-easy-exam-202203/blob/main/counter-plain.png)
 
@@ -154,7 +158,7 @@ Find: Make UI for the counter gadget with interaction as in the given image
 
 ----
 
-## Question 5
+## Question 5 (JS/TS/Golang)
 
 Given: Any odd number, ex. `1`, `7`, `35`, `99`.
 Find: Create function to print (console) the Cross sign made from `*` and space ` ` character print to console.
@@ -192,7 +196,7 @@ Input:`num = 9`
 
 ---
 
-## Question 6
+## Question 6 (JS/TS)
 It is famous that once there is an NPM module which is very easy to implement yet most downloaded so when the author took down the module many sites also went down.
 https://www.npmjs.com/package/left-pad by now Node.js has already implemented the `padStart` function just like in the browser. Still there are many people who keep downloading this.
 
