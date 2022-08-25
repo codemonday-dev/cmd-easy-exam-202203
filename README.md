@@ -220,3 +220,8 @@ leftPad(17, 5, 0)
 leftPad(17, 5, 'X')
 // => "XXX17"
 ```
+
+## Question 7 (Frontend)
+Explain how to do you implement this UI card
+
+https://www.figma.com/community/file/817313486715931025
