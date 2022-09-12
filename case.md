@@ -2,9 +2,23 @@
 
 * Design and present the solution the way you usually do.
 
+* Please make and state assumption (if any)
+
 * Feel free to ask the question to get the neccessary information needed to complete the task.
 
-## Case 1: Race condition
+
+## Case 1: Manage multiple site
+
+For site of fast retail, there are event that marketing department want to spin up some quick temporary site for example for 9.9, 10.10, 11.11 campaign, special collection for specific targeted customers. On this page will have the list and price. However since this is static site, there will be an event of mismatch information for example, price.
+
+Pain point: data mismatch for example price
+
+Existing component: main site, api and databse
+
+Task: Please provide solution to this case to solve the data mismatch issues
+
+
+## Case 2: Race condition
 
 Existing component: Core booking engine
 
@@ -16,7 +30,7 @@ Process:
 
 Task: Please design the 2-3 solution and give a pros and cons comparison among those solution.
 
-## Case 2: Data integrity
+## Case 3: Data integrity
 
 Existing Component: Source system export CSV data to the storage. We are building system to bring in this data on the daily basis e.g., every day 9 o'clock.
 
